@@ -33,7 +33,7 @@ export class Header extends Component {
                     <ul className={toggle ? "toggle" : ""}>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/product">Product</Link></li>
-                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/about">About</Link></li> 
                         <li className="close" onClick={this.menuToggle}>
                             <FaTimes />
                         </li>
